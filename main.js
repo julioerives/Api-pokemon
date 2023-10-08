@@ -78,8 +78,7 @@ async function menos(){
        </div>
     `;
     }
-}z
-// Agregar un controlador de eventos al botón de búsqueda
+}
 document.querySelector('button').addEventListener('click', searchPokemon);
 document.querySelector("#mas").addEventListener("click",mas);
 document.querySelector("#menos").addEventListener("click",menos);
